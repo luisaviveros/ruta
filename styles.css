@@ -377,3 +377,25 @@ footer{background:var(--mor-d);color:#fff;padding:56px 6vw 0}
 nav .marca{display:flex;align-items:center}
 nav .marca img{height:38px;width:auto;display:block}
 @media(max-width:900px){nav .marca img{height:32px}}
+
+/* ===== Pagina del taller ===== */
+.sub{font-size:1.3rem;color:var(--mor);margin:0 0 18px}
+.lista{margin:10px 0 0 18px;padding:0;font-size:.95rem;color:#5B4A7D}
+.lista li{margin-bottom:8px}
+.caja .lista{margin-left:16px}
+.l .pic{font-size:30px;color:var(--mor);min-width:40px}
+.l>.pic+div{flex:1}
+
+/* Lista de materiales */
+.checklist{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px;margin-top:34px}
+.checklist label{background:#fff;border-radius:16px;padding:14px 18px;display:flex;gap:12px;align-items:flex-start;font-size:.92rem;color:#5B4A7D;cursor:pointer;transition:.2s}
+.checklist label:hover{box-shadow:0 6px 16px rgba(59,31,122,.08)}
+.checklist input{accent-color:var(--rosa);width:19px;height:19px;margin-top:2px;flex-shrink:0;cursor:pointer}
+.checklist input:checked+span{text-decoration:line-through;opacity:.5}
+
+/* Cuestionario */
+.preguntas{margin:0;padding-left:22px;display:grid;gap:22px}
+.preguntas>li{color:var(--mor-d);font-size:1rem}
+.preguntas>li>b{color:var(--mor-d)}
+.esperada{display:block;margin-top:8px;font-size:.85rem;color:var(--rosa);font-weight:700}
+.aviso.warn{background:#FFF8E3}
